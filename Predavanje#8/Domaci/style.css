@@ -1,0 +1,55 @@
+
+#main{
+    padding: 100px 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    max-width: 1300px;
+    margin: auto;
+
+}
+
+.carImage{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    position: relative;
+}
+
+.carDiv{
+    border: 1px solid black;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.carTag{
+ position: absolute;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: 3px solid #3B0270;
+    background: #6F00FF;
+}
+.lowPrice{
+
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: 3px solid #3B0270;
+    background: red;
+}
+.exclusivePrice{
+
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: 3px solid #3B0270;
+    background: darkolivegreen;
+}
