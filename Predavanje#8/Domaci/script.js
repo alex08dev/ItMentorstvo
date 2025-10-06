@@ -99,17 +99,17 @@ for(let car of cars){
 
 
     // Da li je auto nov
-    if( carYear.textContent >= 2025){
+    if( parseInt(carYear.textContent) === 2025){
         newCarTag.textContent = "New";
         carDiv.appendChild(newCarTag);
     }
 
     // Dodatak da li je auto jeftin ili premium
-    if(carPrice.textContent < 50000) {
+    if(parseInt(carPrice.textContent) < 50000) {
         identifiePriceTag.textContent = "Low Price!";
         identifiePriceTag.className = "lowPrice";
         carDiv.appendChild(identifiePriceTag);
-    } else if(carPrice.textContent >= 100000) {
+    } else if(parseInt(carPrice.textContent) >= 100000) {
         identifiePriceTag.textContent = "Exclusive!";
         identifiePriceTag.className = "exclusivePrice";
         carDiv.appendChild(identifiePriceTag);
