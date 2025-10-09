@@ -1,0 +1,17 @@
+
+#estateCard{
+
+    padding: 10px;
+    border: #000 1px solid;
+    border-radius: 5px;
+    width: 20%;
+
+    }
+#estate{
+    margin-top:100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
