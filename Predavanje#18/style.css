@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#moviesDiv {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movieHolder {
+  width: 33%;
+}
+.movieHolder img {
+  max-width: 100%;
+}
