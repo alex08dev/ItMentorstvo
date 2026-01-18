@@ -1,0 +1,16 @@
+{
+  "name": "predavanje.22",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-terser": "npx watch \",npx terser script.js -o script.min.js\", "
+  },
+  "author": "Aleksandar M",
+  "license": "ISC",
+  "devDependencies": {
+    "terser": "^5.44.1",
+    "watch": "^1.0.2"
+  }
+}

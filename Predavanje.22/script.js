@@ -1,0 +1,5 @@
+let name = "Aleksandar";
+let age = 24;
+let programmer = true;
+let ideas = true;
+console.log(name,age,programmer,ideas)
